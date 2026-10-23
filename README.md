@@ -1,5 +1,19 @@
 # Three.js渲染SketchUp开发web 3D
 
+> English summary: a Three.js web viewer for SketchUp models. Export a model from SketchUp as `.dae` (Collada), load it with Three.js and `ColladaLoader.js`, or publish it through the Three.js online editor. The repo includes `index.html`, `js/`, `libs/`, and a `demo.dae` sample model.
+
+## Run locally
+
+Serve this folder with any static file server and open `index.html`:
+
+```bash
+python3 -m http.server
+# then open http://localhost:8000
+```
+
+Opening the file directly can block model loading in some browsers, so a local server is recommended.
+
+
 ## 方法一
 
 ### 1. 用SketchUp制作模型，并导出为.dae文件
